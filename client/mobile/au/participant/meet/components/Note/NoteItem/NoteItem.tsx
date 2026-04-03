@@ -46,7 +46,7 @@ const NoteItem: React.FC<NoteItemProps> = ({ note }) => {
         onPress={() => handleDetail(note.type)}
         className="relative w-full rounded-t-md overflow-hidden"
         style={{
-          height: 200,
+          height: 160,
         }}
       >
         <Image className="w-full h-full" src={note.cover.url} />
