@@ -9,7 +9,7 @@ import {
   View,
 } from "react-native";
 
-import Filter from "@components/Common/Filter/Filter";
+import Filter from "@/components/Common/Filter/Filter";
 import HeaderSearch from "@components/Common/HeaderSearch/HeaderSearch";
 import NoteItem from "@components/Note/NoteItem/NoteItem";
 import { Note } from "@type/Note/Note";
@@ -310,7 +310,7 @@ const IndexScreen = () => {
   //     setRefreshing(false);
   //   }
   // };
-  // // 上拉加载数据
+  // 上拉加载数据
   // const onEndReachedDocumentList = async () => {
   //   try {
   //     let url = `${DOCUMENT}?page=${page}&perPage=${pageSize}`;
